@@ -1,0 +1,4 @@
+# 生产环境
+ENV = 'production'
+VUE_APP_MODE = 'production'
+VUE_APP_BASE_API = ''

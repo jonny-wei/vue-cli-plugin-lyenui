@@ -1,0 +1,5 @@
+# 测试环境
+ENV = 'production'
+VUE_APP_MODE = 'test'
+VUE_APP_BASE_API = ''
+outputDir = test
