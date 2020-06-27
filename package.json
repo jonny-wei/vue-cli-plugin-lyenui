@@ -21,5 +21,6 @@
   },
   "license": "MIT",
   "author": "weikongjing",
-  "main": "index.js"
+  "main": "index.js",
+  "publishConfig": { "access": "publish"}
 }
