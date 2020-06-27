@@ -1,6 +1,6 @@
 {
   "name": "@lyen/vue-cli-plugin-lyenui",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "@vue/cli 4.x plugin to add lyenui",
   "keywords": [
     "lyen",
@@ -11,13 +11,13 @@
     "plugin",
     "cli"
   ],
-  "homepage": "https://github.com/lyenui/vue-cli-plugin-lyenui#readme",
+  "homepage": "https://github.com/jonny-wei/vue-cli-plugin-lyenui#readme",
   "bugs": {
-    "url": "https://github.com/lyenui/vue-cli-plugin-lyenui/issues"
+    "url": "https://github.com/jonny-wei/vue-cli-plugin-lyenui/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/lyenui/vue-cli-plugin-lyenui.git"
+    "url": "git+https://github.com/jonny-wei/vue-cli-plugin-lyenui.git"
   },
   "license": "MIT",
   "author": "weikongjing",
