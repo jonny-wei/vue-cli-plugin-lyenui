@@ -15,7 +15,7 @@ npm i @vue/cli -g
 ```bash
 vue create your-app-name
 cd your-app-name
-vue add lyenui
+vue add @lyen/lyenui
 ```
 您将被问到一些有关如何在项目中配置 lyenui 的问题，配置完之后，基于 lyenui 的一个 vue 项目就创建好了。
 
