@@ -23,6 +23,18 @@ vue add @lyen/lyenui
 
 如果您已完上述 **安装** 中的所有操作，请跳过此部分。
 
-如果您更喜欢在 vue-cli UI 中管理项目（通过运行vue ui），则可以通过以下方法添加本插件：转到“插件”菜单，单击右上角的+ Add plugin按钮，找到 @lyen/vue-cli-plugin-lyenui 并安装它。
+如果您更喜欢在 vue-cli UI 中管理项目（通过运行vue ui），则可以通过以下方法添加本插件：转到“插件”菜单，单击右上角的+ Add plugin(添加插件)按钮，找到 @lyen/vue-cli-plugin-lyenui 并安装它。如图：
 
-具体操作详见 [docs 文档](http://10.3.0.126/luidocs/#/zhe-CN)
+![image](lyenui1.PNG)
+
+安装后，在配置插件中配置，如图：
+
+![image](lyenui2.PNG)
+
+项目安装完毕依赖后，启动：
+
+```bash
+npm run serve 
+```
+
+具体操作以及其他事项详见 [docs 文档](http://10.3.0.126/luidocs/#/zhe-CN)
