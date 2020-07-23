@@ -1,6 +1,6 @@
 # vue-cli-plugin-lyenui
 
-基于 `@vue/cli` 4.x 的 `lyenui` 插件，用于使用 lyenui 快速构建中后台管理系统。
+基于 `@vue/cli` 4.x 的插件，用于使用 element-ui 快速构建定制化的中后台管理系统。
 
 ### 安装
 

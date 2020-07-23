@@ -1,0 +1,20 @@
+{{#if state}}
+  const state = {}
+{{/if}}
+
+{{#if getters}}
+  const getters = {}
+{{/if}}
+
+{{#if mutations}}
+  const mutations = {}
+{{/if}}
+
+{{#if actions}}
+  const actions = {}
+{{/if}}
+
+export default {
+namespaced: true,
+{{options}}
+}

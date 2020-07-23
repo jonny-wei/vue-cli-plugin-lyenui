@@ -20,7 +20,7 @@
     "url": "git+https://github.com/jonny-wei/vue-cli-plugin-lyenui.git"
   },
   "license": "MIT",
-  "author": "weikongjing",
+  "author": "jonny wei",
   "main": "index.js",
   "publishConfig": {  "access": "public" }
 }

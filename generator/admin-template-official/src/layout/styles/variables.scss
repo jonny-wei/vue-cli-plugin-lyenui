@@ -1,0 +1,76 @@
+// custom color
+$primary-color: #0b318f;
+$secondary-color: #e6efff;
+$text-color:  rgba(0, 0, 0, .85);
+$subtext-color: rgba(0, 0, 0, .65);
+$base-white: #fff;
+
+
+// layout
+$layoutMainBg: #f5f5f5;
+$layoutMainViewsPadding: 20px 25px;
+$layoutMainViewsPaddingTop: 20px;
+
+// sidebar
+$sideBarWidth: 311px;
+$sideBarMenuWidth: 265px;
+$sideBarCollapseWidth: 80px;
+$sideBarCollapseMenuWidth: 56px;
+
+$sideBarMenuLinkHeight: 66px;
+$sideBarSubMenuLinkHeight: 44px;
+$sideBarMenuHeight: 36px;
+
+$sideBarMenuIconGap: 26px;
+
+$sideBarMenuBg: $base-white;
+$sideBarMenuTextColor: $text-color;
+$sideBarMenuTextActiveColor: $base-white;
+$sideBarMenuBgActiveColor: $primary-color;
+$sideBarMenuBgActiveShadow: 0 4px 8px 0 rgba(18, 79, 232, 0.3);
+$sideBarMenuHoverBg: $secondary-color;
+
+$sideBarCollapseMenuTextColor: $primary-color;
+$sideBarCollapseMenuBgActiveColor: #5278d9;
+
+$sideBarMenuGroupTitleColor: #7c9de6;
+$sideBarCollapseMenuGroupTitleColor: $text-color;
+
+$sideBarSubMenuBg: $base-white;
+$sideBarSubMenuTextColor: $subtext-color;
+$sideBarSubMenuTextActiveColor: $subtext-color;
+$sideBarSubMenuBgActiveColor: $secondary-color;
+$sideBarSubMenuHoverBg: $secondary-color;
+
+// sidebar-logo
+$sidebarLogoHeight: 76px;
+$sideBarLogoBg: #284fad;
+$sideBarLogoTextSize: 18px;
+$sideBarLogoTextColor: $base-white;
+$sideBarLogoSize: 34px;
+
+// sidebar-user
+$sideBarUserHeight: 89px;
+$sideBarUserAvatarSize: 48px;
+
+// hamburger
+$hamburgerSize: 24px;
+$hamburgerColor: $base-white;
+$hamburgerHoverColor: $base-white;
+
+// navbar
+$navBarHeight: 76px;
+$navBarItemMenuHoverColor: #00257d;
+
+// tagsview
+$tagsViewHeight: 56px;
+
+// breadcrumbs
+$breadcrumbsHeight: 46px;
+$breadcrumbsTextColor: $subtext-color;
+$breadcrumbsTextActiveColor: $primary-color;
+
+// share variables between js and sass
+:export {
+
+}
