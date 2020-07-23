@@ -12,11 +12,16 @@ npm i @vue/cli -g
 
 然后创建一个工程并添加本插件
 
+本插件内置会默认安装 vue router，vuex，sass/scss 等，您可直接选择 default 默认设置，快速创建一个新项目的原型
+
 ```bash
 vue create your-app-name
 cd your-app-name
 vue add @lyen/lyenui
 ```
+
+![image](lyenui0.PNG)
+
 您将被问到一些有关如何在项目中配置 lyenui 的问题，配置完之后，基于 lyenui 的一个 vue 项目就创建好了。
 
 ### 和 vue-cli UI 一起使用
