@@ -21,7 +21,7 @@ Router.prototype.push = function push (location) {
 const createRouter = () => new Router({
   routes: constantRoutes,
   scrollBehavior: () => ({ y: 0 }), // 滚动行为。 具体见 https://router.vuejs.org/zh/guide/advanced/scroll-behavior.html
-  mode: 'history' // 您也可以使用 hash 模式，如果用 histroy 模式还需要后台配置支持。具体见 https://router.vuejs.org/zh/guide/essentials/history-mode.html
+  mode: 'history' // 您也可以使用 hash 模式，如果用 history 模式还需要后台配置支持。具体见 https://router.vuejs.org/zh/guide/essentials/history-mode.html
 })
 
 const router = createRouter()

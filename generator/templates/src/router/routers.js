@@ -63,6 +63,7 @@ export const constantRoutes = [
         name: 'Group1',
         component: () => import(/* webpackChunkName: "nested-groups-group1-page" */'@/views/nested/menu1/index'),
         meta: { title: 'Group1', group: 'Group1', groupSet: ['Group1-1'] },
+        redirect: '/nested-groups/group1/group1-1',
         children: [
           {
             path: 'group1-1',
@@ -74,7 +75,8 @@ export const constantRoutes = [
             path: 'group1-2',
             name: 'Group1-2',
             component: () => import(/* webpackChunkName: "nested-groups-menu1-2-page" */'@/views/nested/menu1/menu1-2'),
-            meta: { title: 'group1-2', group: 'Group1-1', groupSet: ['Group1-2-1', 'Group1-2-2'] },
+            meta: { title: 'Group1-2', group: 'Group1-1', groupSet: ['Group1-2-1', 'Group1-2-2'] },
+            redirect: '/nested-groups/group1/group1-2/group1-2-1',
             children: [
               {
                 path: 'group1-2-1',
@@ -121,6 +123,7 @@ export const constantRoutes = [
         name: 'Menu1',
         component: () => import(/* webpackChunkName: "nested-menu1-page" */'@/views/nested/menu1/index'),
         meta: { title: 'Menu1' },
+        redirect: '/nested/menu1/menu1-1',
         children: [
           {
             path: 'menu1-1',
@@ -133,6 +136,7 @@ export const constantRoutes = [
             name: 'Menu1-2',
             component: () => import(/* webpackChunkName: "nested-menu1-2-page" */'@/views/nested/menu1/menu1-2'),
             meta: { title: 'Menu1-2' },
+            redirect: '/nested/menu1/menu1-2/menu1-2-1',
             children: [
               {
                 path: 'menu1-2-1',
