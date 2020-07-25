@@ -20,7 +20,7 @@ cd your-app-name
 vue add @lyen/lyenui
 ```
 
-![image](lyenui0.PNG)
+![image](lyenui0.png)
 
 您将被问到一些有关如何在项目中配置 lyenui 的问题，配置完之后，基于 lyenui 的一个 vue 项目就创建好了。
 
@@ -30,11 +30,11 @@ vue add @lyen/lyenui
 
 如果您更喜欢在 vue-cli UI 中管理项目（通过运行vue ui），则可以通过以下方法添加本插件：转到“插件”菜单，单击右上角的+ Add plugin(添加插件)按钮，找到 @lyen/vue-cli-plugin-lyenui 并安装它。如图：
 
-![image](lyenui1.PNG)
+![image](lyenui1.png)
 
 安装后，在配置插件中配置，如图：
 
-![image](lyenui2.PNG)
+![image](lyenui2.png)
 
 项目安装完毕依赖后，启动：
 

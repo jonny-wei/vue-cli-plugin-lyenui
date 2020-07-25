@@ -32,6 +32,7 @@ export default {
 <style lang="scss" scoped>
 .error-page{
   text-align: center;
+  padding: 20px;
   &-img{
     font-size: 28vw; // 500px
   }
